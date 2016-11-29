@@ -1,21 +1,15 @@
-// +build tcell windows
-
 package tui
 
 import (
+	"fmt"
+	"os"
+	"runtime"
 	"time"
 	"unicode/utf8"
 
-	"fmt"
-	"os"
-
-	"runtime"
-
-	// https://github.com/gdamore/tcell/pull/135
+	"github.com/joshuarubin/go-runewidth"
 	"github.com/joshuarubin/tcell"
 	"github.com/joshuarubin/tcell/encoding"
-
-	"github.com/joshuarubin/go-runewidth"
 )
 
 type ColorPair [2]Color
