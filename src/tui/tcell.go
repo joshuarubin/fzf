@@ -12,10 +12,10 @@ import (
 	"runtime"
 
 	// https://github.com/gdamore/tcell/pull/135
-	"github.com/junegunn/tcell"
-	"github.com/junegunn/tcell/encoding"
+	"github.com/joshuarubin/tcell"
+	"github.com/joshuarubin/tcell/encoding"
 
-	"github.com/junegunn/go-runewidth"
+	"github.com/joshuarubin/go-runewidth"
 )
 
 type ColorPair [2]Color

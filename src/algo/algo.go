@@ -82,7 +82,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/junegunn/fzf/src/util"
+	"github.com/joshuarubin/fzf/src/util"
 )
 
 var DEBUG bool

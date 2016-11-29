@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/junegunn/fzf/src/algo"
-	"github.com/junegunn/fzf/src/util"
+	"github.com/joshuarubin/fzf/src/algo"
+	"github.com/joshuarubin/fzf/src/util"
 )
 
 var slab *util.Slab

@@ -7,8 +7,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/junegunn/fzf/src/tui"
-	"github.com/junegunn/fzf/src/util"
+	"github.com/joshuarubin/fzf/src/tui"
+	"github.com/joshuarubin/fzf/src/util"
 )
 
 func TestOffsetSort(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/junegunn/fzf/src/util"
+	"github.com/joshuarubin/fzf/src/util"
 )
 
 // MatchRequest represents a search request

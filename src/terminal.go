@@ -13,13 +13,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/junegunn/fzf/src/tui"
-	"github.com/junegunn/fzf/src/util"
-
-	"github.com/junegunn/go-runewidth"
+	"github.com/joshuarubin/fzf/src/tui"
+	"github.com/joshuarubin/fzf/src/util"
+	"github.com/joshuarubin/go-runewidth"
 )
-
-// import "github.com/pkg/profile"
 
 var placeholder *regexp.Regexp
 

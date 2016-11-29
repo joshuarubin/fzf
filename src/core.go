@@ -30,7 +30,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/junegunn/fzf/src/util"
+	"github.com/joshuarubin/fzf/src/util"
 )
 
 /*

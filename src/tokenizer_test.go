@@ -3,7 +3,7 @@ package fzf
 import (
 	"testing"
 
-	"github.com/junegunn/fzf/src/util"
+	"github.com/joshuarubin/fzf/src/util"
 )
 
 func TestParseRange(t *testing.T) {
